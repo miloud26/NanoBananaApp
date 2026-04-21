@@ -60,7 +60,7 @@ export default function App() {
     setError(null);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "AIzaSyCo6vU6o3fthPCNPfezVdh3unAhDKymdmA" });
+      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "AIzaSyAP8oG63BYpE7fVu_0pWkoXbIYa-R-nBmY" });
       
       const parts: any[] = [{ text: prompt }];
       
